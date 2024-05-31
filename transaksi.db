@@ -1,0 +1,12 @@
+CREATE TABLE ttransaksi (
+  id_transaksi INT AUTO_INCREMENT PRIMARY KEY,
+  kode_transaksi VARCHAR(255),
+  nomor_rekening VARCHAR(255),
+  jumlah DECIMAL(18,2),
+  tanggal_waktu DATETIME,
+  staff VARCHAR(255),
+  status VARCHAR(255),
+  keterangan TEXT,
+  gl_debet VARCHAR(255),
+  gl_credit VARCHAR(255)
+);
